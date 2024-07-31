@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>kossuuのページ</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+	<style>
+		body {
+			padding-top: 50px;
+			background-color: lightgray;
+		}
+
+		.jumbotron {
+			background-image: url("https://paiza-webapp.s3.amazonaws.com/files/learning/portfolio/bg.png");
+			color: white;
+		}
+
+		.starter-template {
+			padding: 40px 80px;
+			background-color: white;
+		}
+
+		.icon-size {
+			font-size: 200%;
+		}
+		.color-talk {
+ 			color: rgb(255, 51, 0);
+		}
+
+		.color-wrench {
+ 			color: rgb(0, 185, 12);
+		}
+
+		.color-heart {
+ 			color: rgb(34, 51, 243);
+		}
+
+		.imgsize {
+			width: 500px;
+			height: auto;
+		}
+
+		.fontsetting {
+			color: rgb(255, 51, 0);
+			margin-bottom: 30px;
+		}
+
+		.youtube {
+ 			width: 100%;
+  			aspect-ratio: 16/9;
+		}
+
+		.youtube iframe {
+  			width: 100%;
+ 			height: 100%;
+		}
+
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">kossuuのページ</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#apealpoints">ApealPoints</a></li>
+					<li><a href="#works">Works</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#data">Data</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h1>Kosuda Yuki</h1>
+				</div>
+				<div class="col-sm-6">
+					<img src="icon.jpg" class="img-responsive imgsize">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="apealpoints">
+		<div class="starter-template">
+			<h2>Apeal Points</h2>
+			<div class="row text-center">
+				<h2>「身長は低いけど、志は高い」</h2>
+				<div class="col-sm-4">
+					<h2 class="color-talk"><span class="glyphicon glyphicon-fire icon-size"></span><br>集中力</h2>
+					<p>勉強・研究・遊び<br>どんなことに対しても全力で取り組み、<br>何時間でも集中を切らさず作業できます。</p>
+				</div>
+				<div class="col-sm-4">
+					<h2 class="color-wrench"><span class="glyphicon glyphicon-road icon-size"></span><br>継続力</h2>
+					<p>持ち前の精神力で絶対にあきらめず、<br>先が長くても少しずつしか進めなくても<br>納得のいく成果を得るまで走り続けます。</p>
+				</div>
+				<div class="col-sm-4">
+					<h2 class="color-heart"><span class="glyphicon glyphicon-eye-open icon-size"></span><br>俯瞰力</h2>
+					<p id="works">常に全体像を意識し、目標を見据え、<br>様々な観点からモノを見る広い視野を持っています。</p>
+				</div>
+			</div>
+			<hr>
+			<h2>Works</h2>
+			<div class="row">
+				<h3>AISpeculationQuiz</h3>
+				<div class="col-sm-6">	
+					<p>2023年2月に友人とサポーターズさんのハッカソンに出場したときの作品。<br>その当時流行りだしたAIを用いて何か面白いものを作れないか考え、AIとクイズを組み合わせたwebゲームを作ることに。完成したのは世界の法律を学べるクイズで、画像生成AIに法律の内容から画像を生成してもらい、その画像を見てどんな法律なのか4択で回答し、学ぶことができるというもの。世界には「教会でおならをしたら終身刑(アメリカ、ミズーリ州)」などありえないような法律もあり、それをAIに画像生成させると面白い画像が生成され、面白おかしく学ぶことがき、世界中の文化などを学ぶきっかけになれるものを目指した。<br>	使用技術は、画像生成AIにはStableDiffusion、フレームワークにはStleamlit。</p>
+					<h2 class="fontsetting">努力賞受賞‼</h2>
+				</div>
+				<div class="col-sm-6">
+					<div class="youtube">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/ticP4X3AmHs?si=xclT2Hay2lLWsTIC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3>AdvancedAISpeculationQuiz</h3>
+				<div class="col-sm-6">					
+					<p>上記作品「AISpeculationQuiz」で努力賞を受賞したことにより、受賞者や優秀者だけが参加できる、成果物をブラッシュアップして発表するアドバンスハッカソンに招待され作成した作品(2023年3月)。<br>AIとクイズの要素に、さらに対戦という要素を追加。いったん法律という要素はなくし、片方の人がいくつかの単語をリストから選んで画像生成AIに入力して画像を生成させ、もう一人がその画像を見て、単語リストの中からどれが生成に使われた単語なのか当てるという形式のゲーム。使用技術も一新し、画像生成AIはDALL･E2にし、Vue.jsとNode.jsを用いて開発を行った。また、アジャイル開発を採用し、心理的安全性を保ち、プロダクトの価値を常に確認しながら開発を行った。当時トレンドになりつつあったAIに着目したことや開発手法の刷新などが評価され、LayerX様から企業賞を頂くことができた。</p>
+					<h2 class="fontsetting">企業賞受賞‼</h2>
+				</div>
+				<div class="col-sm-6">
+					<div class="youtube">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/1SWEAkyx1ao?si=ejdcT5aa-emxTQNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<h3>Others</h3>
+				<div class="col-sm-12">
+					<ul>
+						<li>Github : <a href="https://github.com/kossuu78">kossuu78</a></li>
+						<li id="skills">Qiita : <a href="https://qiita.com/Yuki_K0148">Yuki_K0148</a></li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<h2>Skills</h2>
+			<div class="row">
+				<h3>Programing Language</h3>
+				<div class="col-sm-12">	
+					<ul>
+						<li>Python(3年間)</li>
+						<li>JavaScript(半年)</li>
+						<li>C(1年間)</li>
+						<li>C#(1年間)</li>
+						<li>Unity(半年)</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<h2 id="data">Data</h2>
+			<div class="row">
+				<h3>Profile</h3>
+				<div class="col-sm-12">					
+					<p>群馬県伊勢崎市出身<br>2001年7月8日生まれの23歳O型<br>好きなものはサッカーとゲームと睡眠</p>
+				</div>
+				<h3>Career</h3>
+				<div class="col-sm-12">
+					<p>2017.4~2020.3<br>群馬県立前橋高等学校 普通科</p>
+					<p>2020.4~2024.3<br>筑波大学 情報学群 情報科学類<br>取得学位 : 情報工学</p><p>2024.4~ <br>筑波大学大学院 理工情報生命学術院 システム情報工学研究群 リスク・レジリエンス工学学位プログラム</p>
+				</div>
+			</div>
+			<a class="btn btn-primary pull-right" href="#">Topに戻る</a>
+			<p></p>
+		</div>
+	</div>
+	<!-- /.container -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>
